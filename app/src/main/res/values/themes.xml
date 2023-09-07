@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tint" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="testChipStyleAttr">@style/TestChipStyle</item>
+    </style>
+
+    <style name="Theme.Tint" parent="Base.Theme.Tint" />
+
+    <style name="TestChipStyle">
+        <item name="android:textColor">#ff0000</item>
+        <item name="drawableTint">#00ff00</item>
+    </style>
+
+    <attr name="testChipStyleAttr" format="reference" />
+</resources>
